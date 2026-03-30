@@ -1,36 +1,118 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Personal Academic Website
+
+This repository contains my personal academic website, built with **Next.js** and **TypeScript**. It is designed to present my academic background, research experience, projects, and professional profile in a clean and modern format.
+
+## Live Demo
+
+🔗 [Visit the website](https://personal-website-nine-theta-52.vercel.app)
+
+## About
+
+This website serves as a central hub for my academic and professional information. It may include sections such as:
+
+- About Me
+- Research Experience
+- Projects
+- Publications
+- Resume / CV
+- Contact Information
+
+## Tech Stack
+
+- **Next.js**
+- **TypeScript**
+- **JavaScript**
+- **CSS**
+- **Vercel** for deployment
+
+## Project Structure
+
+```bash
+.
+├── app/
+├── components/
+├── public/
+├── styles/
+├── package.json
+├── tsconfig.json
+└── README.md
+```
+# Personal Academic Website
 
 ## Getting Started
 
-First, run the development server:
+To run this project locally, first install the dependencies:
 
 ```bash
+npm install
+
+Then start the development server:
+
 npm run dev
-# or
+
+You can also use other package managers:
+
 yarn dev
 # or
 pnpm dev
 # or
 bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000
+ in your browser to view the website.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Development
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+You can start editing the website by modifying the main page file:
 
-## Learn More
+app/page.tsx
 
-To learn more about Next.js, take a look at the following resources:
+The page will automatically update as you save changes.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Features
+Responsive personal academic website
+Built with modern Next.js App Router
+Type-safe development using TypeScript
+Easy to customize and extend
+Fast deployment with Vercel
+Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This project is deployed on Vercel.
 
-## Deploy on Vercel
+To deploy your own version:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Push this repository to GitHub
+Import the repository into Vercel
+Configure the project settings if needed
+Deploy directly from the main branch
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+For more details, see the Next.js deployment documentation
+.
+
+Customization
+
+You can personalize this website by updating:
+
+Text content in the app/ directory
+Images and static assets in public/
+Styling and layout in your CSS files or component files
+Metadata such as page title, description, and social links
+Learn More
+
+To learn more about the technologies used in this project:
+
+Next.js Documentation
+TypeScript Documentation
+Vercel Documentation
+Author
+
+Victoria Zhou (Shuzi Zhou)
+
+GitHub: @Victoriazhou7
+Repository Info
+Repository Purpose: Personal academic website
+Primary Language: TypeScript
+Deployment Status: Production
+License
+
+This project is intended for personal use and portfolio purposes.
